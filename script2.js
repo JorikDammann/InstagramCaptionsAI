@@ -426,7 +426,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         <button class="carousel-button right-arrow">❯</button>
                     ` : ""}
                 </div>
-                <img src="LikeBar.png" alt="everything" class="icon" style="max-width: 275px;">                
+                <img src="LikeBar.png" alt="Like Bar" class="logo2">     
                 <div class="instagram-caption">
                     <span class="username">randomuser</span> <span id="captionText" class="caption">${caption}</span>
                 </div>
