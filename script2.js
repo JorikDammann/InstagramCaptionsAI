@@ -413,7 +413,7 @@ document.addEventListener("DOMContentLoaded", function () {
         resultsDiv.innerHTML = `
             <div class="instagram-post">
                 <div class="instagram-header">
-                    <img src="Default_pfp.jpg" alt="Profile">
+                    <img src="Default_pfp.jpg" alt="Profile" style="max-width: 30px; max-height: 30px;">
                     <div>
                         <span class="instagram-username">randomuser</span>
                         ${location ? `<div class="instagram-location">${location}</div>` : ""}
@@ -426,8 +426,9 @@ document.addEventListener("DOMContentLoaded", function () {
                         <button class="carousel-button right-arrow">❯</button>
                     ` : ""}
                 </div>
+                <img src="Screenshot 2025-03-20 at 6.42.15 AM.png" alt="everything" class="icon" style="max-width: 250px;">                
                 <div class="instagram-caption">
-                    <span class="username">randomuser</span> <span id="captionText">${caption}</span>
+                    <span class="username">randomuser</span> <span id="captionText" class="caption">${caption}</span>
                 </div>
             </div>
         `;
