@@ -170,7 +170,7 @@ button:hover {
 }
 
 .instagram-post {
-    width: 350px;
+    width: 250px;
     border: 1px solid #dbdbdb;
     border-radius: 10px;
     background-color: #fff;
@@ -181,7 +181,7 @@ button:hover {
 .instagram-header {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     border-bottom: 1px solid #dbdbdb;
 }
 
@@ -204,14 +204,14 @@ button:hover {
 
 .instagram-username {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 10px;
     margin-bottom: 2px;
     color: black;
 
 }
 
 .instagram-location {
-    font-size: 12px;
+    font-size: 10px;
     color: #8e8e8e;
 }
 
@@ -272,14 +272,16 @@ button:hover {
     color: black;
 }
 
-.instagram-caption {
-    padding: 10px;
+.instagram-caption .caption {
+    font-size: 10px;
+    padding: 0px;
     color: black;
 }
 
 .instagram-caption .username {
+    font-size: 10px;
     font-weight: bold;
-    margin-right: 5px;
+    margin-left: 5px;
     color: black;
 }
 .logo {
@@ -391,8 +393,8 @@ h3 {
 .image-slot {
     position: relative;
     display: inline-block;
-    width: 70px; /* Adjust size as needed */
-    height: 70px; /* Adjust size as needed */
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
     border-radius: 10px;
     overflow: hidden;
 }
@@ -409,11 +411,11 @@ h3 {
     position: absolute;
     top: 5px;
     left: 5px;
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
     background-color: red;
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     border-radius: 50%;
     display: flex;
