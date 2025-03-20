@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Description AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Instagram Logo" class="logo"> 
+        <h1>AI Captions</h1>
+        <p>No data stored. Your photos are safe I promise. Made by request of my girlfriend.</p>
+        
+        <div class="file-upload">
+            <input type="file" id="imageUpload" multiple accept="image/*" hidden>
+            <label for="imageUpload" class="upload-button">
+                <span class="plus-sign">+</span>
+            </label>
+        </div>
+        
+        <!-- Permanent Image Preview Grid -->
+        <div id="imagePreviewGrid" class="image-grid">
+        </div><br>
+        
+        
+        <div class="select-wrapper">
+            <select id="categoryDropdown" class="input-style">
+                <option value="" selected disabled>Select Category</option>
+                <option value="Dump">Dump</option>
+                <option value="No Special Occasion, Just Good Pics">No Special Occasion, Just Good Pics</option>
+                <option value="Aura (Super Hard)">Aura (Super Hard)</option>
+                <option value="Vacation">Vacation</option>
+                <option value="Beach / Pool / Swimming">Beach / Pool / Swimming</option>
+                <option value="Cold Weather">Cold Weather</option>
+                <option value="Formal/Dance">Formal/Dance</option>
+                <option value="Basic">Basic</option>
+                <option value="Aesthetic / No People">Aesthetic / No People</option>
+                <option value="Birthday">Birthday</option>
+                <option value="Concert">Concert</option>
+                <option value="Boyfriend">Boyfriend</option>
+                
+            </select>
+        </div>
+        <input type="text" id="locationInput" class="input-style" placeholder="Enter location (optional)">
+
+        
+        <div id="results"></div>
+        <button id="uploadButton">Generate</button>
+        
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/heic2any@latest/dist/heic2any.min.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
